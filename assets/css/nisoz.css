@@ -6382,9 +6382,10 @@ body.locked .page-wrapper {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: var(--nisoz-base);
+  background-color: #000;
   -webkit-animation: movebounce3 2s linear infinite;
   animation: movebounce3 2s linear infinite;
+  border-radius: 50%;
 }
 
 @media (max-width: 767px) {
